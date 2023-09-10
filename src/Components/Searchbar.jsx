@@ -12,7 +12,7 @@ const Searchbar = () => {
     <div className="search-bar">
       <input
       
-      onChange={(e)=>setSearch(e.target.value)}
+      // onChange={(e)=>setSearch(e.target.value)}
         type="search"
         className="search-input"
         placeholder='Search Items'
