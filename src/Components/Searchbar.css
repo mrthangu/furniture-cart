@@ -1,0 +1,49 @@
+/* Add this CSS to your component or a separate CSS file */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .search-button:hover {
+    background-color: #138496;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .search-bar {
+      max-width: 100%;
+    }
+  
+    .search-input {
+      width: 70%; /* Adjust as needed */
+    }
+  
+    .search-button {
+      width: 30%; /* Adjust as needed */
+      padding: 8px 10px; /* Adjust as needed */
+      font-size: 14px; /* Adjust as needed */
+    }
+  }
+  

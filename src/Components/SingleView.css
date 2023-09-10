@@ -1,0 +1,42 @@
+.box-one img {
+  height: 400px;
+  width: 400px;
+  border-radius: 4px;
+
+}
+
+
+.box-one{
+    margin: 30px;
+    text-align: center;
+}
+
+.super {
+  display: flex;
+  border: 1.5px solid rgb(149, 141, 149);
+  margin: 2px;
+  border-radius: 5px;
+  height: 86vh;
+}
+
+.box-two{
+
+    margin: 30px;
+}
+
+.box-two button{
+
+    border-radius: 2px;
+    border: none;
+    margin: 5px;
+    color: rgb(27, 42, 42);
+    background-color: aquamarine;
+    padding: 5px;
+
+}
+.box-two button:hover{
+
+
+background: lightcoral;
+
+}

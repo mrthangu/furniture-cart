@@ -1,0 +1,121 @@
+/* Add this CSS to your component or a separate CSS file */
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  /* Style for the navigation links */
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+    display: block;
+    width: 100%; /* Make links take full width */
+  }
+  
+  .navbar-link:hover {
+    color: #17a2b8;
+  }
+  
+  /* Style for the active link */
+  .navbar-link.active {
+    font-weight: bold;
+  }
+  
+  /* Style for the dropdown */
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  /* Style for buttons */
+  .btn-primary {
+    background-color: #17a2b8;
+    border: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #138496;
+  }
+  
+  /* Adjust the form input width */
+  .form-control {
+    width: 200px;
+  }
+  
+  /* Style for the dropdown menu */
+  .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+  }
+  
+  /* Style for dropdown items */
+  .dropdown-item {
+    color: #fff;
+    padding: 8px 20px;
+    transition: background-color 0.3s ease-in-out;
+    list-style-type: none; /* Remove bullet point */
+  }
+  
+  .dropdown-item-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dropdown-item-link:hover {
+    background-color: #138496;
+  }
+  
+  /* Vertical navigation on desktop */
+  @media (min-width: 992px) {
+    .navbar-list {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .navbar-toggler {
+      display: none;
+    }
+  
+    .collapse.show {
+      display: block !important;
+    }
+  
+    .navbar-brand {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-link {
+      padding: 10px 20px;
+    }
+  
+    .navbar-list > .nav-item {
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  /* Horizontal navigation on smaller screens */
+  @media (max-width: 991px) {
+    .navbar-list {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .navbar-brand {
+      margin-bottom: 0;
+    }
+  
+    .navbar-link {
+      padding: 10px;
+    }
+  }
+  

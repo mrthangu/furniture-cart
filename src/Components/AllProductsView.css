@@ -1,0 +1,14 @@
+.p-box{
+
+    display:flex ;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.card-box{
+
+    width: 30%;
+    margin: 10px;
+    height: 100%;
+}
